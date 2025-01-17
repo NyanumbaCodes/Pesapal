@@ -1,0 +1,41 @@
+{
+    "name": "nyanumba-codes/pesapal",
+    "description": "\"Laravel Integration Package for Pesapal \"",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "NyanumbaCodes\\Pesapal\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Steve Nyanumba",
+            "email": "reach@stevenyanumba.com"
+        }
+    ],
+    "require": {
+        "php": "8.*",
+        "guzzlehttp/guzzle": "^7.9",
+        "illuminate/support": "^11.38"
+    },
+    "extra":{
+        "laravel":{
+            "aliases":{
+                "Pesapal":"NyanumbaCodes\\Pesapal\\Facades\\Pesapal"
+            },
+            "providers":[
+                "NyanumbaCodes\\Pesapal\\Providers\\PesapalServiceProvider.php"
+            ]
+        }
+    },
+    "repositories": {
+        "pesapal": {
+            "type": "path",
+            "url": "C:/Users/Steve/LaravelPackages/Nyanumba/Pesapal"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+
+}
