@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'nyanumba-codes/pesapal',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '71d616573758bea6cb4a97dda78e9e0e42dcd074',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -110,9 +110,9 @@
             'dev_requirement' => false,
         ),
         'nyanumba-codes/pesapal' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '71d616573758bea6cb4a97dda78e9e0e42dcd074',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

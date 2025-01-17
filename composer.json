@@ -15,17 +15,17 @@
         }
     ],
     "require": {
-        "php": "8.*",
+        "php": ">=8.0",
         "guzzlehttp/guzzle": "^7.9",
         "illuminate/support": "^11.38"
     },
     "extra":{
         "laravel":{
             "aliases":{
-                "Pesapal":"NyanumbaCodes\\Pesapal\\Facades\\Pesapal"
+                "NyanumbaCodes\\Pesapal":"NyanumbaCodes\\Pesapal\\Facades\\Pesapal"
             },
             "providers":[
-                "NyanumbaCodes\\Pesapal\\Providers\\PesapalServiceProvider.php"
+                "NyanumbaCodes\\Pesapal\\Providers\\PesapalServiceProvider"
             ]
         }
     },
