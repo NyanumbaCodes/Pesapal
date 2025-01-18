@@ -236,6 +236,6 @@ This package is open-sourced software licensed under the [MIT license](LICENSE.m
 
 ---
 
-**Author**: [Steve Nyanumba](https://github.com/SteveNyanumba)  
-**Website**: [stevenyanumba.com](https://stevenyanumba.com)
-**YouTube Channel**: [Nyanumba Codes](https://www.youtube.com/@nyanumba_codes)
+* **Author**: [Steve Nyanumba](https://github.com/SteveNyanumba)  
+* **Website**: [stevenyanumba.com](https://stevenyanumba.com)
+* **YouTube Channel**: [Nyanumba Codes](https://www.youtube.com/@nyanumba_codes)
