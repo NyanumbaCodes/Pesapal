@@ -102,7 +102,7 @@ You are required to register all IPN URLs after which a corresponding `notificat
 
 ### **4. Handling Callbacks**
 
-Define callback routes in your `web.php`:
+Define callback routes in your `routes/api.php`:
 
 ```php
 Route::post('pesapal/callback', [PaymentController::class, 'handleCallback'])->name('pesapal.callback');
