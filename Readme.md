@@ -14,13 +14,16 @@ A Laravel package that simplifies integration with the Pesapal payment gateway. 
 ## Installation
 
 Install the package via Composer:
+
 ```bash
 composer require nyanumba-codes/pesapal
 ```
 
 Publish the configuration file (Optional):
+
 ```bash
-php artisan vendor:publish --provider="NyanumbaCodes\Pesapal\PesapalServiceProvider" --tag="config"
+php artisan vendor:publish --tag="pesapal-config"
+
 ```
 
 The configuration file `config/pesapal.php` will be created. Update it with your Pesapal credentials (Already done for you).
