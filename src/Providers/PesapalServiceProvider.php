@@ -19,6 +19,6 @@ class PesapalServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/../../config/pesapal.php' => config_path('pesapal.php'),
-        ], 'config');
+        ], 'pesapal-config');
     }
 }
