@@ -96,6 +96,7 @@ $billing_address = [
 ];
 
 $response = $pesapal->submitOrderRequest($amount, $description, $billing_address, $notification_id);
+return redirect()->away($response['redirect_url']);
 ```
 
 Please Note that the `$notification_id` represents an IPN URL which Pesapal will send notifications to after payments have been processed.
