@@ -1,4 +1,4 @@
-# Pesapal API Integration Package for Laravel 11
+# Pesapal API Integration Package for Laravel
 
 A Laravel package that simplifies integration with the Pesapal payment gateway. This package allows developers to easily handle Pesapal's functionalities such as IPN (Instant Payment Notifications) registration, processing payments, and managing callbacks. Designed to work seamlessly with Laravel projects, including those using Livewire.
 
